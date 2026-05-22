@@ -1,0 +1,69 @@
+You are a senior Replit + TanStack + Vite + TypeScript + Vercel deployment engineer.
+
+Analyze and repair my ENTIRE project for successful Vercel deployment WITHOUT changing the current UI, design, features, layouts, responsiveness, animations, or themes.
+
+STRICT RULES:
+- Do NOT redesign anything
+- Do NOT refactor unnecessary code
+- Do NOT remove features
+- Do NOT alter existing functionality
+- Do NOT modify visual appearance
+- Only perform deployment/build compatibility fixes
+
+Your mission is to make the project deploy successfully on Vercel with zero build errors.
+
+Tasks to perform:
+
+1. Detect and fix ALL Vercel deployment errors
+2. Detect and fix ALL Vite build issues
+3. Detect and fix ALL TanStack Router issues
+4. Detect and fix missing files and broken imports
+5. Detect and fix path resolution problems
+6. Detect and fix TypeScript errors
+7. Detect and fix package/dependency conflicts
+8. Detect and fix alias configuration issues
+9. Detect and fix route generation issues
+10. Detect and fix Bun/NPM compatibility issues
+11. Ensure production build succeeds fully
+
+CRITICAL FIXES TO VERIFY:
+
+- Ensure src/main.tsx exists
+- Ensure index.html points to the correct entry file
+- Replace absolute /src/main.tsx paths if needed
+- Ensure vite.config.ts is production-safe
+- Ensure TanStack Router plugin is configured correctly
+- Ensure tsconfig.json aliases resolve properly
+- Ensure routeTree generation works
+- Ensure all imports use correct casing
+- Ensure no missing assets/files exist
+- Ensure all dependencies are installed properly
+- Ensure npm run build completes successfully
+- Ensure project works in production mode
+
+If missing files are required:
+- CREATE ONLY the required missing deployment/config files
+- Preserve existing architecture and app behavior
+
+FOR VERCEL:
+- Force use of npm instead of bun if needed
+- Create or repair vercel.json
+- Ensure correct output directory
+- Ensure framework preset is correct
+- Ensure production environment compatibility
+
+REQUIRED OUTPUT:
+1. Apply all fixes automatically
+2. Explain every fix made
+3. Confirm UI/features remain unchanged
+4. Confirm npm run build works
+5. Confirm Vercel deployment is ready
+
+Expected final setup:
+- Framework: Vite
+- Build command: npm run build
+- Output directory: dist
+- Package manager: npm
+
+Goal:
+Make the app deploy flawlessly on Vercel while remaining visually and functionally IDENTICAL to the current project.
