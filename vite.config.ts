@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    tsconfigPaths(),
+    tsconfigPaths({ ignoreConfigErrors: true }),
   ],
   server: {
     host: "0.0.0.0",
