@@ -1,0 +1,74 @@
+You are an expert TanStack + Vite + React + TypeScript + Vercel deployment engineer.
+
+Analyze my ENTIRE project and fix ALL deployment/build/runtime issues preventing successful deployment on Vercel.
+
+CRITICAL RULES:
+- DO NOT alter the current UI
+- DO NOT alter styling
+- DO NOT alter themes
+- DO NOT alter layouts
+- DO NOT alter animations
+- DO NOT alter functionality/features
+- DO NOT rewrite components unnecessarily
+- ONLY perform deployment compatibility fixes
+- Preserve the exact current visual appearance and behavior
+
+Your task is ONLY to:
+1. Fix Vercel deployment issues
+2. Fix missing file references
+3. Fix TanStack Router/Vite configuration
+4. Fix path resolution issues
+5. Fix build errors
+6. Fix TypeScript import issues
+7. Fix alias/path issues
+8. Fix generated route tree issues
+9. Fix package/dependency conflicts
+10. Fix environment/configuration problems
+11. Ensure npm run build succeeds
+12. Ensure project deploys successfully on Vercel
+
+IMPORTANT:
+- Maintain existing architecture
+- Maintain existing folder structure whenever possible
+- Maintain all existing routes/pages/components
+- Maintain all current designs exactly
+- Maintain all current business logic
+- Maintain responsiveness/mobile behavior
+- Maintain all APIs and integrations
+
+Required checks:
+- Verify src/main.tsx exists and resolves correctly
+- Verify index.html references correct entry file
+- Verify TanStack Router plugin is configured properly
+- Verify vite.config.ts is production-safe
+- Verify tsconfig path aliases
+- Verify all imports use correct casing
+- Verify generated routeTree files exist
+- Verify all dependencies are installed correctly
+- Verify build output directory is correct for Vercel
+- Verify no dev-only packages break production build
+- Verify no missing assets/files
+- Verify all environment variables are handled safely
+
+If something is missing:
+- CREATE ONLY the missing required deployment/configuration files
+- DO NOT redesign or restructure the app unnecessarily
+
+After fixing:
+- Run a full production build validation
+- Ensure zero TypeScript errors
+- Ensure zero Vercel build errors
+- Ensure zero missing module errors
+
+Finally provide:
+1. List of all fixes made
+2. Why each fix was required
+3. Confirmation that UI/features remain unchanged
+4. Final Vercel settings:
+   - Framework preset
+   - Build command
+   - Output directory
+   - Install command
+
+Goal:
+Make this project deploy flawlessly on Vercel while keeping the app visually and functionally IDENTICAL to the current version.

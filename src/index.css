@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 45 100% 85%;
+    --card: 0 0% 7%;
+    --card-foreground: 45 100% 85%;
+    --popover: 0 0% 7%;
+    --popover-foreground: 45 100% 85%;
+    --primary: 45 100% 51%;
+    --primary-foreground: 0 0% 5%;
+    --secondary: 0 0% 12%;
+    --secondary-foreground: 45 100% 85%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 45 100% 51%;
+    --accent-foreground: 0 0% 5%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 15%;
+    --input: 0 0% 12%;
+    --ring: 45 100% 51%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-family: "Inter", sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Rajdhani", sans-serif;
+  }
+}
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(255, 200, 0, 0.6);
+}
+
+.card-glow {
+  box-shadow: 0 0 20px rgba(255, 200, 0, 0.08);
+}
+
+.rank-1 { color: #ffd700; }
+.rank-2 { color: #c0c0c0; }
+.rank-3 { color: #cd7f32; }
